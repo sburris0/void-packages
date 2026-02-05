@@ -1,6 +1,6 @@
 # Template file for 'nvtop'
 pkgname=nvtop
-version=3.2.0
+version=3.3.1
 revision=1
 build_style=cmake
 hostmakedepends="pkg-config"
@@ -11,4 +11,4 @@ license="GPL-3.0-or-later"
 homepage="https://github.com/Syllo/nvtop"
 changelog="https://github.com/Syllo/nvtop/releases"
 distfiles="https://github.com/Syllo/nvtop/archive/refs/tags/${version}.tar.gz"
-checksum=d26df685455023cedc4dda033862dcddb67402fbdb685da70da78492f73c41d0
+checksum=8318aff973e0850bea4b9d7d313c513206cdc9b8387e8441681e84ac2bc0e980

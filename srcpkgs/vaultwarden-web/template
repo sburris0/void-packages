@@ -1,13 +1,13 @@
 # Template file for 'vaultwarden-web'
 pkgname=vaultwarden-web
-version=2025.10.1
+version=2025.12.1+build.3
 revision=1
 short_desc="Web vault builds for vaultwarden"
 maintainer="Joel Beckmeyer <joel@beckmeyer.us>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/dani-garcia/bw_web_builds"
 distfiles="https://github.com/dani-garcia/bw_web_builds/releases/download/v${version}/bw_web_v${version}.tar.gz"
-checksum=166d2c20f42185e61b577342b25b33628898559aeb8c36a679d44f19534ca159
+checksum=58316072afe4479f014717c24becc8f8af40ad606dad18e78d332fe07add18bd
 
 do_install() {
 	vmkdir usr/share/webapps/vaultwarden-web
